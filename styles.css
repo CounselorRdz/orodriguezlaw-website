@@ -1072,3 +1072,16 @@ textarea:focus-visible {
 
 /* Sharper pullquote: heavier rule, tighter block */
 .pullquote { border-left-width: 6px; }
+
+/* ---------- Portrait ---------- */
+.portrait { margin: 0; }
+.portrait img {
+  width: 100%; display: block;
+  border-bottom: 8px solid var(--red);
+}
+.portrait figcaption {
+  font-size: 0.7rem; font-weight: 700;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--gray); margin-top: 0.85rem;
+}
+.section--light .pullquote { margin-bottom: 1.75rem; }
