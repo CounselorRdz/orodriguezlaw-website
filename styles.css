@@ -1,7 +1,7 @@
 /* ============================================================
    Orlando Rodriguez — Trial Lawyer · Houston
    Design system: near-black ground, single red accent,
-   Barlow Condensed black display type, ledger-style rows.
+   Archivo Black (Helvetica-style) chunky display type, ledger-style rows.
    ============================================================ */
 
 :root {
@@ -18,7 +18,7 @@
   --faint: #444444;
   --ghost: #111111;
 
-  --display: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
+  --display: "Archivo Black", "Helvetica Neue", "Arial Black", Arial, sans-serif;
   --text: "Barlow", Arial, sans-serif;
 
   --max: 1400px;
@@ -56,7 +56,7 @@ a { color: inherit; }
   font-family: var(--display);
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 0.92;
+  line-height: 1.02;
   letter-spacing: -0.01em;
   color: var(--white);
   margin: 0;
@@ -266,7 +266,7 @@ a { color: inherit; }
   transform: translateY(-50%);
   font-family: var(--display);
   font-weight: 900;
-  font-size: clamp(8rem, 22vw, 22rem);
+  font-size: clamp(5rem, 16vw, 15rem);
   color: var(--ghost);
   line-height: 0.85;
   letter-spacing: -0.02em;
@@ -286,11 +286,11 @@ a { color: inherit; }
 
 .hero-line {
   display: block;
-  font-size: clamp(3.5rem, 10vw, 9.5rem);
+  font-size: clamp(2.4rem, 7.5vw, 6.5rem);
 }
 
 .hero--sub .hero-line {
-  font-size: clamp(2.8rem, 8vw, 7rem);
+  font-size: clamp(2rem, 6vw, 5rem);
 }
 
 .hero-sub {
@@ -471,7 +471,7 @@ a { color: inherit; }
   font-size: clamp(1.8rem, 4vw, 3rem);
   color: var(--white);
   text-transform: uppercase;
-  line-height: 0.95;
+  line-height: 1.02;
   margin: 0 0 0.75rem;
 }
 
@@ -879,3 +879,196 @@ textarea:focus-visible {
   outline: 2px solid var(--red);
   outline-offset: 2px;
 }
+
+/* ============================================================
+   THE NIGHT DOCKET
+   ============================================================ */
+
+.hablamos {
+  font-family: var(--display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--white);
+  margin-top: 0.35rem;
+}
+
+/* Three-column intro row (mirrors the fact strip) */
+.docket-intro {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.docket-intro .grid {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.docket-cell {
+  padding: 2rem 1.5rem 2rem 0;
+  border-left: 1px solid var(--line);
+  padding-left: 1.5rem;
+}
+.docket-cell:first-child { border-left: 0; padding-left: 0; }
+.docket-cell .big {
+  display: block;
+  font-family: var(--display);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: var(--white);
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+.docket-cell .small { font-size: 0.85rem; color: var(--gray); }
+
+/* Entry ledger rows */
+.entry-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+  align-items: center;
+  padding: 2.25rem 0;
+  border-top: 1px solid var(--line);
+  text-decoration: none;
+}
+.entry-row:hover { background: var(--panel-hover); }
+.entry-row .stamp {
+  font-size: 0.72rem;
+  color: var(--dim);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.entry-row .cat {
+  display: inline-block;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-left: 1rem;
+}
+.entry-row h3 {
+  font-family: var(--display);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  line-height: 1.02;
+  color: var(--white);
+  margin: 0 0 0.5rem;
+}
+.entry-row .deck { color: var(--gray); margin: 0; font-size: 0.95rem; }
+.entry-row .arrow {
+  font-family: var(--display);
+  font-weight: 900;
+  font-size: 1.6rem;
+  color: var(--red);
+}
+
+/* Article template */
+.article {
+  max-width: 68ch;
+  margin: 0 auto;
+  padding: 4rem var(--pad) 5rem;
+}
+.article .cat {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+.article .stamp {
+  font-size: 0.72rem;
+  color: var(--dim);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+.article h1 {
+  font-family: var(--display);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(2.4rem, 7vw, 4.5rem);
+  line-height: 1.02;
+  color: var(--white);
+  margin: 1rem 0 0;
+}
+.article .red-tick {
+  width: 64px; height: 6px;
+  background: var(--red);
+  margin: 1.5rem 0 2.5rem;
+}
+.article-body {
+  font-family: "Lora", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #CCCCCC;
+}
+.article-body p { margin: 0 0 1.4rem; }
+.article-body strong { color: var(--white); }
+.article .signoff {
+  font-family: var(--text);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: var(--dim);
+  margin-top: 3rem;
+}
+.article .signoff .dot { color: var(--red); }
+.article-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-top: 1px solid var(--line);
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+}
+.article-nav a {
+  font-family: var(--display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.85rem;
+  color: var(--gray);
+  text-decoration: none;
+}
+.article-nav a:hover { color: var(--white); }
+
+@media (max-width: 720px) {
+  .docket-intro .grid { grid-template-columns: 1fr; }
+  .docket-cell { border-left: 0; padding-left: 0; border-top: 1px solid var(--line); }
+  .docket-cell:first-child { border-top: 0; }
+  .entry-row { grid-template-columns: 1fr; gap: 0.5rem; }
+  .entry-row .arrow { display: none; }
+}
+
+/* ============================================================
+   CONTRAST CUTS + SHARP QUOTES (editorial pass)
+   ============================================================ */
+
+/* Signature red terminal punctuation */
+.reddot { color: var(--red); }
+
+/* Hard white cut section */
+.section--light {
+  background: var(--white);
+  color: #1A1A1A;
+  border-top: 6px solid var(--red);
+  border-bottom: none;
+}
+.section--light .pullquote { border-left-color: #0A0A0A; }
+.section--light .pullquote blockquote { color: #0A0A0A; }
+.section--light .eyebrow { color: var(--red); }
+.section--light p { color: #333333 !important; }
+.section--light .link-underline { color: #0A0A0A; }
+
+/* Bigger stat numerals, subway-sign weight */
+.fact .big { font-size: clamp(2.2rem, 4.5vw, 3.6rem); }
+
+/* Sharper pullquote: heavier rule, tighter block */
+.pullquote { border-left-width: 6px; }
