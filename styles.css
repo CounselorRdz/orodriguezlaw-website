@@ -39,7 +39,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 
 a { color: inherit; }
 
@@ -1076,7 +1076,7 @@ textarea:focus-visible {
 /* ---------- Portrait ---------- */
 .portrait { margin: 0; }
 .portrait img {
-  width: 100%; display: block;
+  width: 100%; height: auto; display: block;
   border-bottom: 8px solid var(--red);
 }
 .portrait figcaption {
