@@ -385,6 +385,7 @@ a { color: inherit; }
 }
 
 @media (max-width: 640px) {
+  .facts .grid { grid-template-columns: 1fr; }
   .fact { border-right: none; border-bottom: 1px solid var(--line); }
   .fact:last-child { border-bottom: none; }
 }
