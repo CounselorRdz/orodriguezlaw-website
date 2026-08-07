@@ -1069,7 +1069,7 @@ textarea:focus-visible {
 .section--light .link-underline { color: #0A0A0A; }
 
 /* Bigger stat numerals, subway-sign weight */
-.fact .big { font-size: clamp(2.2rem, 4.5vw, 3.6rem); }
+.fact .big { font-size: clamp(1.35rem, 3.2vw, 2.8rem); line-height: 1.05; overflow-wrap: anywhere; }
 
 /* Sharper pullquote: heavier rule, tighter block */
 .pullquote { border-left-width: 6px; }
