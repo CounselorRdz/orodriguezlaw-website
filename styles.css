@@ -1086,3 +1086,8 @@ textarea:focus-visible {
   color: var(--gray); margin-top: 0.85rem;
 }
 .section--light .pullquote { margin-bottom: 1.75rem; }
+
+
+/* Hero watermark: R and gavel mark, black on black */
+.hero .hero-mark { position: absolute; top: 4.5rem; left: var(--pad); width: clamp(160px, 22vw, 300px); height: auto; opacity: 0.06; pointer-events: none; user-select: none; }
+@media (max-width: 720px) { .hero .hero-mark { display: none; } }
