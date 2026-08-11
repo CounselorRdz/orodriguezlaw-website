@@ -1,239 +1,277 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Night Docket | Orlando Rodriguez, Trial Lawyer | Houston, TX</title>
-  <meta name="description" content="A trial lawyer's column on words, persuasion, and the writers who mastered both. Filed after midnight from Houston, Texas.">
-  <link rel="canonical" href="https://orodriguezlaw.com/docket/">
-  <link rel="icon" type="image/png" href="/logo-red.png"><link rel="apple-touch-icon" href="/logo-red.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Night Docket | Orlando Rodriguez, Trial Lawyer | Houston, TX</title>
+<meta name="description" content="A trial lawyer's column on words, persuasion, and the writers who mastered both. Filed after midnight from Houston, Texas.">
+<link rel="canonical" href="https://orodriguezlaw.com/docket/">
+<link rel="icon" type="image/png" href="/logo-red.png"><link rel="apple-touch-icon" href="/logo-red.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<style>
+/* Fifth Circuit feature banner */
+.fc-feature{display:flex;gap:1.1rem;align-items:center;margin:0 0 0.4rem;padding:1.25rem 1.4rem;border:1px solid var(--red);border-radius:6px;background:linear-gradient(180deg,rgba(224,31,38,0.10),rgba(224,31,38,0.02));text-decoration:none;color:inherit;transition:background .15s;}
+.fc-feature:hover{background:linear-gradient(180deg,rgba(224,31,38,0.17),rgba(224,31,38,0.05));}
+.fc-play{flex:0 0 auto;width:46px;height:46px;border-radius:50%;border:2px solid var(--red);color:var(--red);display:grid;place-items:center;}
+.fc-play svg{margin-left:3px;}
+.fc-body{display:block;}
+.fc-tag{display:block;font-family:'Barlow',sans-serif;font-size:0.66rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--red);}
+.fc-h{display:block;font-family:'Archivo Black',sans-serif;font-size:1.1rem;color:var(--white);margin:0.15rem 0 0.3rem;line-height:1.15;}
+.fc-p{display:block;font-family:'Barlow',sans-serif;font-size:0.9rem;color:var(--gray);line-height:1.5;}
+/* filter tabs */
+.fc-tabs{display:flex;flex-wrap:wrap;gap:0.4rem;margin:1.5rem 0 1.3rem;}
+.fc-tab{font-family:'Barlow',sans-serif;font-weight:600;font-size:0.78rem;letter-spacing:0.04em;color:var(--gray);background:transparent;border:1px solid var(--line);border-radius:100px;padding:0.42rem 0.95rem;cursor:pointer;transition:all .15s;}
+.fc-tab:hover{color:var(--white);border-color:var(--gray);}
+.fc-tab.active{color:#fff;background:var(--red);border-color:var(--red);}
+.entry-row.fc-hidden{display:none !important;}
+@media(max-width:560px){.fc-feature{gap:0.9rem;padding:1.1rem 1.1rem;}.fc-h{font-size:1rem;}.fc-p{font-size:0.85rem;}}
+</style>
 </head>
 <body>
 
 <header class="site-header">
-  <div class="bar">
-    <a class="brand" href="../index.html">
-      <span class="name">Orlando Rodriguez</span>
-      <span class="tag">Trial Lawyer &middot; Houston</span>
-    </a>
-    <nav class="main-nav" aria-label="Main navigation">
-      <a class="nav-link" href="../practice-areas.html">Practice</a>
-      <a class="nav-link" href="../about.html">About</a>
-      <a class="nav-link" href="index.html" aria-current="page">The Docket</a>
-      <a class="nav-link" href="../contact.html">Contact</a>
-      <a class="btn btn--small" href="../contact.html">Free Consultation</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
-    </button>
-  </div>
-  <nav class="mobile-nav" aria-label="Mobile navigation">
-    <a href="../practice-areas.html">Practice</a>
-    <a href="../about.html">About</a>
-    <a href="index.html">The Docket</a>
-    <a href="../contact.html">Contact</a>
-    <a class="cta" href="../contact.html">Free Consultation</a>
-  </nav>
+<div class="bar">
+<a class="brand" href="../index.html">
+<span class="name">Orlando Rodriguez</span>
+<span class="tag">Trial Lawyer &middot; Houston</span>
+</a>
+<nav class="main-nav" aria-label="Main navigation">
+<a class="nav-link" href="../practice-areas.html">Practice</a>
+<a class="nav-link" href="../about.html">About</a>
+<a class="nav-link" href="index.html" aria-current="page">The Docket</a>
+<a class="nav-link" href="../contact.html">Contact</a>
+<a class="btn btn--small" href="../contact.html">Free Consultation</a>
+</nav>
+<button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+</button>
+</div>
+<nav class="mobile-nav" aria-label="Mobile navigation">
+<a href="../practice-areas.html">Practice</a>
+<a href="../about.html">About</a>
+<a href="index.html">The Docket</a>
+<a href="../contact.html">Contact</a>
+<a class="cta" href="../contact.html">Free Consultation</a>
+</nav>
 </header>
 
 <main>
 
-  <!-- Hero -->
-  <section class="hero hero--sub">
-    <div class="ghost" aria-hidden="true">WORDS</div>
-    <div class="inner">
-      <span class="eyebrow rise">The Docket</span>
-      <h1 class="display">
-        <span class="hero-line rise">The Night</span>
-        <span class="hero-line rise">Docket</span>
-      </h1>
-      <p class="hero-sub reveal">Cases are won on paper before they are won in the courtroom. This is where the paper gets studied: the words, the techniques, and the writers who did it best.</p>
-    </div>
-  </section>
+<!-- Hero -->
+<section class="hero hero--sub">
+<div class="ghost" aria-hidden="true">WORDS</div>
+<div class="inner">
+<span class="eyebrow rise">The Docket</span>
+<h1 class="display">
+<span class="hero-line rise">The Night</span>
+<span class="hero-line rise">Docket</span>
+</h1>
+<p class="hero-sub reveal">Cases are won on paper before they are won in the courtroom. This is where the paper gets studied: the words, the techniques, and the writers who did it best.</p>
+</div>
+</section>
 
-  <!-- Three-column intro row -->
-  <section class="docket-intro">
-    <div class="grid">
-      <div class="docket-cell reveal">
-        <span class="big">The Masters</span>
-        <span class="small">Scouting reports on the greatest to ever write.</span>
-      </div>
-      <div class="docket-cell reveal">
-        <span class="big">One Word</span>
-        <span class="small">One word, taken apart.</span>
-      </div>
-      <div class="docket-cell reveal">
-        <span class="big">Redline</span>
-        <span class="small">Before and after, edited in the open.</span>
-      </div>
-    </div>
-  </section>
+<!-- Entry ledger -->
+<section class="section">
+<div class="inner">
 
-  <!-- Entry ledger -->
-  <section class="section">
-    <div class="inner">
+<a class="fc-feature" href="the-fifth-circuit.html">
+<span class="fc-play" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+<span class="fc-body">
+<span class="fc-tag">New Section</span>
+<span class="fc-h">The Fifth Circuit</span>
+<span class="fc-p">Argument recaps from the most powerful court you have never heard of, the one that rules Texas, Louisiana, and Mississippi.</span>
+</span>
+</a>
 
-      <a class="entry-row reveal" href="redline-wherefore-premises-considered.html"><div><div><span class="stamp">Entry 035</span><span class="cat">Redline</span></div><h3>Wherefore, Premises Considered</h3><p class="deck">The prayer that closes every Texas petition. The one piece of boilerplate you do not cut.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-learned-hand.html"><div><div><span class="stamp">Entry 034</span><span class="cat">The Masters</span></div><h3>Learned Hand</h3><p class="deck">The judge who turned fault into arithmetic, and never made the Supreme Court.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-deliberate.html"><div><div><span class="stamp">Entry 033</span><span class="cat">One Word</span></div><h3>Deliberate</h3><p class="deck">Careless is a tragedy. Deliberate is a decision. Only one is a civil rights case.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-the-buried-lede.html"><div><div><span class="stamp">Entry 032</span><span class="cat">Redline</span></div><h3>The Buried Lede</h3><p class="deck">The fact that wins your case should not be hiding in paragraph nine.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-thurgood-marshall.html"><div><div><span class="stamp">Entry 031</span><span class="cat">The Masters</span></div><h3>Thurgood Marshall</h3><p class="deck">Most lawyers try to win the case in front of them. He was winning the case ten years out.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-custom.html"><div><div><span class="stamp">Entry 030</span><span class="cat">One Word</span></div><h3>Custom</h3><p class="deck">Custom tells you what is usual. It does not tell you what is safe.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-spoliation.html"><div><div><span class="stamp">Entry 029</span><span class="cat">One Word</span></div><h3>Spoliation</h3><p class="deck">The strongest exhibit in the file is sometimes the one that went missing.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-cicero.html"><div><div><span class="stamp">Entry 028</span><span class="cat">The Masters</span></div><h3>Cicero</h3><p class="deck">The greatest advocate the ancient world produced. The direct address, the concession, the killing pause.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-proximate-cause.html"><div><div><span class="stamp">Entry 027</span><span class="cat">One Word</span></div><h3>Proximate Cause</h3><p class="deck">A dropped package, a falling scale, and the doctrine that lets a court say no when everything says yes.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-standing.html"><div><div><span class="stamp">Entry 026</span><span class="cat">One Word</span></div><h3>Standing</h3><p class="deck">Before a court hears a word about the merits, it asks a stranger question: are you allowed to be here.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-inspection.html"><div><div><span class="stamp">Entry 025</span><span class="cat">One Word</span></div><h3>Inspection</h3><p class="deck">A wheel broke, and the train kept rolling for miles. The paperwork is not the inspection.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-barnum.html"><div><div><span class="stamp">Entry 024</span><span class="cat">The Masters</span></div><h3>Barnum</h3><p class="deck">The showman who taught America how to look. A trial lawyer&rsquo;s debt to the master of attention.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-ringleader.html"><div><div><span class="stamp">Entry 023</span><span class="cat">One Word</span></div><h3>Ringleader</h3><p class="deck">The circus named the one who runs the ring. The law spends its life proving who he is.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-the-letter-you-dont-send.html"><div><div><span class="stamp">Entry 022</span><span class="cat">Redline</span></div><h3>The Letter You Don&rsquo;t Send</h3><p class="deck">Anger on paper reads as weakness, and the record keeps everything.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-orwell.html"><div><div><span class="stamp">Entry 021</span><span class="cat">The Masters</span></div><h3>Orwell</h3><p class="deck">He never practiced law, and he wrote the best legal writing manual in the language.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-one-fact-one-question.html"><div><div><span class="stamp">Entry 020</span><span class="cat">Redline</span></div><h3>One Fact, One Question</h3><p class="deck">A question with two facts in it is a question the witness gets to choose from.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-hypocrisy.html"><div><div><span class="stamp">Entry 019</span><span class="cat">One Word</span></div><h3>Hypocrisy</h3><p class="deck">Juries forgive mistakes. Not the company that wrote the rule and broke it.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-jackson.html"><div><div><span class="stamp">Entry 018</span><span class="cat">The Masters</span></div><h3>Jackson</h3><p class="deck">A country lawyer opened the most serious trial in history with plain sentences. They held.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-please-be-advised.html"><div><div><span class="stamp">Entry 017</span><span class="cat">Redline</span></div><h3>Please Be Advised</h3><p class="deck">The first sentence of a demand letter, spent on the wound instead of the weather.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-notice.html"><div><div><span class="stamp">Entry 016</span><span class="cat">One Word</span></div><h3>Notice</h3><p class="deck">A hazard is bad luck. A hazard they knew about is a decision.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-barbara-jordan.html"><div><div><span class="stamp">Entry 015</span><span class="cat">The Masters</span></div><h3>Barbara Jordan</h3><p class="deck">Fifth Ward, Houston. Thirteen minutes in 1974, and the country sat down.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-nobody-did-it.html"><div><div><span class="stamp">Entry 014</span><span class="cat">Redline</span></div><h3>Nobody Did It</h3><p class="deck">Passive voice is not grammar. It is a hiding place, built on purpose.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-accident.html"><div><div><span class="stamp">Entry 013</span><span class="cat">One Word</span></div><h3>Accident</h3><p class="deck">An accident is a thing that happens. A crash is a thing somebody did.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-preserved.html">
-        <div>
-          <div><span class="stamp">Entry 012</span><span class="cat">One Word</span></div>
-          <h3>Preserved</h3>
-          <p class="deck">No objection, no appeal. The trial lawyer plays two games at once.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<div class="fc-tabs" aria-label="Filter entries by strand">
+<button type="button" class="fc-tab active" data-cat="all">All</button>
+<button type="button" class="fc-tab" data-cat="One Word">One Word</button>
+<button type="button" class="fc-tab" data-cat="The Masters">The Masters</button>
+<button type="button" class="fc-tab" data-cat="Redline">Redline</button>
+<button type="button" class="fc-tab" data-cat="The Fifth Circuit">The Fifth Circuit</button>
+</div>
 
-      <a class="entry-row reveal" href="one-word-enough.html">
-        <div>
-          <div><span class="stamp">Entry 011</span><span class="cat">One Word</span></div>
-          <h3>Enough</h3>
-          <p class="deck">The Okinawans stop at eighty percent. The best caseloads work the same way.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="the-fifth-circuit.html"><div><div><span class="stamp">Field Guide</span><span class="cat">The Fifth Circuit</span></div><h3>The Fifth Circuit: A Field Guide</h3><p class="deck">What the court is, who sits on it, and the doctrines it is quietly rewriting. Start here.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="argued-hill-v-jackson-offshore.html"><div><div><span class="stamp">Argued &middot; No. 24-30554</span><span class="cat">The Fifth Circuit</span></div><h3>Hill v. Jackson Offshore Holdings</h3><p class="deck">Four quiet words in a post-injury agreement decided who would ever hear the case.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-wherefore-premises-considered.html"><div><div><span class="stamp">Entry 035</span><span class="cat">Redline</span></div><h3>Wherefore, Premises Considered</h3><p class="deck">The prayer that closes every Texas petition. The one piece of boilerplate you do not cut.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-learned-hand.html"><div><div><span class="stamp">Entry 034</span><span class="cat">The Masters</span></div><h3>Learned Hand</h3><p class="deck">The judge who turned fault into arithmetic, and never made the Supreme Court.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-deliberate.html"><div><div><span class="stamp">Entry 033</span><span class="cat">One Word</span></div><h3>Deliberate</h3><p class="deck">Careless is a tragedy. Deliberate is a decision. Only one is a civil rights case.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-the-buried-lede.html"><div><div><span class="stamp">Entry 032</span><span class="cat">Redline</span></div><h3>The Buried Lede</h3><p class="deck">The fact that wins your case should not be hiding in paragraph nine.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-thurgood-marshall.html"><div><div><span class="stamp">Entry 031</span><span class="cat">The Masters</span></div><h3>Thurgood Marshall</h3><p class="deck">Most lawyers try to win the case in front of them. He was winning the case ten years out.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-custom.html"><div><div><span class="stamp">Entry 030</span><span class="cat">One Word</span></div><h3>Custom</h3><p class="deck">Custom tells you what is usual. It does not tell you what is safe.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-spoliation.html"><div><div><span class="stamp">Entry 029</span><span class="cat">One Word</span></div><h3>Spoliation</h3><p class="deck">The strongest exhibit in the file is sometimes the one that went missing.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-cicero.html"><div><div><span class="stamp">Entry 028</span><span class="cat">The Masters</span></div><h3>Cicero</h3><p class="deck">The greatest advocate the ancient world produced. The direct address, the concession, the killing pause.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-proximate-cause.html"><div><div><span class="stamp">Entry 027</span><span class="cat">One Word</span></div><h3>Proximate Cause</h3><p class="deck">A dropped package, a falling scale, and the doctrine that lets a court say no when everything says yes.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-standing.html"><div><div><span class="stamp">Entry 026</span><span class="cat">One Word</span></div><h3>Standing</h3><p class="deck">Before a court hears a word about the merits, it asks a stranger question: are you allowed to be here.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-inspection.html"><div><div><span class="stamp">Entry 025</span><span class="cat">One Word</span></div><h3>Inspection</h3><p class="deck">A wheel broke, and the train kept rolling for miles. The paperwork is not the inspection.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-barnum.html"><div><div><span class="stamp">Entry 024</span><span class="cat">The Masters</span></div><h3>Barnum</h3><p class="deck">The showman who taught America how to look. A trial lawyer&rsquo;s debt to the master of attention.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-ringleader.html"><div><div><span class="stamp">Entry 023</span><span class="cat">One Word</span></div><h3>Ringleader</h3><p class="deck">The circus named the one who runs the ring. The law spends its life proving who he is.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-the-letter-you-dont-send.html"><div><div><span class="stamp">Entry 022</span><span class="cat">Redline</span></div><h3>The Letter You Don&rsquo;t Send</h3><p class="deck">Anger on paper reads as weakness, and the record keeps everything.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-orwell.html"><div><div><span class="stamp">Entry 021</span><span class="cat">The Masters</span></div><h3>Orwell</h3><p class="deck">He never practiced law, and he wrote the best legal writing manual in the language.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-one-fact-one-question.html"><div><div><span class="stamp">Entry 020</span><span class="cat">Redline</span></div><h3>One Fact, One Question</h3><p class="deck">A question with two facts in it is a question the witness gets to choose from.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-hypocrisy.html"><div><div><span class="stamp">Entry 019</span><span class="cat">One Word</span></div><h3>Hypocrisy</h3><p class="deck">Juries forgive mistakes. Not the company that wrote the rule and broke it.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-jackson.html"><div><div><span class="stamp">Entry 018</span><span class="cat">The Masters</span></div><h3>Jackson</h3><p class="deck">A country lawyer opened the most serious trial in history with plain sentences. They held.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-please-be-advised.html"><div><div><span class="stamp">Entry 017</span><span class="cat">Redline</span></div><h3>Please Be Advised</h3><p class="deck">The first sentence of a demand letter, spent on the wound instead of the weather.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-notice.html"><div><div><span class="stamp">Entry 016</span><span class="cat">One Word</span></div><h3>Notice</h3><p class="deck">A hazard is bad luck. A hazard they knew about is a decision.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="the-masters-barbara-jordan.html"><div><div><span class="stamp">Entry 015</span><span class="cat">The Masters</span></div><h3>Barbara Jordan</h3><p class="deck">Fifth Ward, Houston. Thirteen minutes in 1974, and the country sat down.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="redline-nobody-did-it.html"><div><div><span class="stamp">Entry 014</span><span class="cat">Redline</span></div><h3>Nobody Did It</h3><p class="deck">Passive voice is not grammar. It is a hiding place, built on purpose.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-accident.html"><div><div><span class="stamp">Entry 013</span><span class="cat">One Word</span></div><h3>Accident</h3><p class="deck">An accident is a thing that happens. A crash is a thing somebody did.</p></div><span class="arrow">&rarr;</span></a> <a class="entry-row reveal" href="one-word-preserved.html">
+<div>
+<div><span class="stamp">Entry 012</span><span class="cat">One Word</span></div>
+<h3>Preserved</h3>
+<p class="deck">No objection, no appeal. The trial lawyer plays two games at once.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <a class="entry-row reveal" href="one-word-outgunned.html">
-        <div>
-          <div><span class="stamp">Entry 010</span><span class="cat">One Word</span></div>
-          <h3>Outgunned</h3>
-          <p class="deck">A thousand lawyers. One man. One shared hallway on the thirty-ninth floor.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="one-word-enough.html">
+<div>
+<div><span class="stamp">Entry 011</span><span class="cat">One Word</span></div>
+<h3>Enough</h3>
+<p class="deck">The Okinawans stop at eighty percent. The best caseloads work the same way.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <a class="entry-row reveal" href="the-masters-sun-tzu.html">
-        <div>
-          <div><span class="stamp">Entry 009</span><span class="cat">The Masters</span></div>
-          <h3>Sun Tzu</h3>
-          <p class="deck">Six thousand words, twenty-five centuries old, still running the courtroom.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="one-word-outgunned.html">
+<div>
+<div><span class="stamp">Entry 010</span><span class="cat">One Word</span></div>
+<h3>Outgunned</h3>
+<p class="deck">A thousand lawyers. One man. One shared hallway on the thirty-ninth floor.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <a class="entry-row reveal" href="redline-comes-now.html">
-        <div>
-          <div><span class="stamp">Entry 008</span><span class="cat">Redline</span></div>
-          <h3>Comes Now</h3>
-          <p class="deck">The most famous throat-clear in Texas law, edited into a first line that earns its place.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="the-masters-sun-tzu.html">
+<div>
+<div><span class="stamp">Entry 009</span><span class="cat">The Masters</span></div>
+<h3>Sun Tzu</h3>
+<p class="deck">Six thousand words, twenty-five centuries old, still running the courtroom.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <a class="entry-row reveal" href="one-word-because.html">
-        <div>
-          <div><span class="stamp">Entry 007</span><span class="cat">One Word</span></div>
-          <h3>Because</h3>
-          <p class="deck">Jurors build stories, and stories run on causes. The one-sentence test of a case theory.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="redline-comes-now.html">
+<div>
+<div><span class="stamp">Entry 008</span><span class="cat">Redline</span></div>
+<h3>Comes Now</h3>
+<p class="deck">The most famous throat-clear in Texas law, edited into a first line that earns its place.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <a class="entry-row reveal" href="the-masters-darrow.html">
-        <div>
-          <div><span class="stamp">Entry 006</span><span class="cat">The Masters</span></div>
-          <h3>Darrow</h3>
-          <p class="deck">Twelve hours on his feet, and nobody left. The defender completes the triad.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="one-word-because.html">
+<div>
+<div><span class="stamp">Entry 007</span><span class="cat">One Word</span></div>
+<h3>Because</h3>
+<p class="deck">Jurors build stories, and stories run on causes. The one-sentence test of a case theory.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <a class="entry-row reveal" href="redline-the-fog-machine.html">
-        <div>
-          <div><span class="stamp">Entry 005</span><span class="cat">Redline</span></div>
-          <h3>The Fog Machine</h3>
-          <p class="deck">One defense-letter sentence, edited down to its eleven honest words.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="the-masters-darrow.html">
+<div>
+<div><span class="stamp">Entry 006</span><span class="cat">The Masters</span></div>
+<h3>Darrow</h3>
+<p class="deck">Twelve hours on his feet, and nobody left. The defender completes the triad.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <a class="entry-row reveal" href="one-word-never.html">
-        <div>
-          <div><span class="stamp">Entry 004</span><span class="cat">One Word</span></div>
-          <h3>Never</h3>
-          <p class="deck">Some words describe. Never legislates.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="redline-the-fog-machine.html">
+<div>
+<div><span class="stamp">Entry 005</span><span class="cat">Redline</span></div>
+<h3>The Fog Machine</h3>
+<p class="deck">One defense-letter sentence, edited down to its eleven honest words.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <a class="entry-row reveal" href="the-masters-lincoln.html">
-        <div>
-          <div><span class="stamp">Entry 003</span><span class="cat">The Masters</span></div>
-          <h3>Lincoln</h3>
-          <p class="deck">The best closing argument in American history took two minutes.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="one-word-never.html">
+<div>
+<div><span class="stamp">Entry 004</span><span class="cat">One Word</span></div>
+<h3>Never</h3>
+<p class="deck">Some words describe. Never legislates.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <a class="entry-row reveal" href="the-masters-scalia.html">
-        <div>
-          <div><span class="stamp">Entry 002</span><span class="cat">The Masters</span></div>
-          <h3>Scalia</h3>
-          <p class="deck">Scouting report: the most quoted writer the Court ever produced.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="the-masters-lincoln.html">
+<div>
+<div><span class="stamp">Entry 003</span><span class="cat">The Masters</span></div>
+<h3>Lincoln</h3>
+<p class="deck">The best closing argument in American history took two minutes.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <a class="entry-row reveal" href="one-word-reckless.html">
-        <div>
-          <div><span class="stamp">Entry 001</span><span class="cat">One Word</span></div>
-          <h3>Reckless</h3>
-          <p class="deck">Negligent is a shrug. Reckless is a decision.</p>
-        </div>
-        <span class="arrow">&rarr;</span>
-      </a>
+<a class="entry-row reveal" href="the-masters-scalia.html">
+<div>
+<div><span class="stamp">Entry 002</span><span class="cat">The Masters</span></div>
+<h3>Scalia</h3>
+<p class="deck">Scouting report: the most quoted writer the Court ever produced.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
 
-      <div style="border-top:1px solid var(--line);"></div>
-    </div>
-  </section>
+<a class="entry-row reveal" href="one-word-reckless.html">
+<div>
+<div><span class="stamp">Entry 001</span><span class="cat">One Word</span></div>
+<h3>Reckless</h3>
+<p class="deck">Negligent is a shrug. Reckless is a decision.</p>
+</div>
+<span class="arrow">&rarr;</span>
+</a>
+
+<div style="border-top:1px solid var(--line);"></div>
+</div>
+</section>
 
 </main>
 
 <footer class="site-footer">
-  <div class="inner">
-    <div class="red-rule"></div>
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <div class="name">Orlando Rodriguez</div>
-        <div class="role">Attorney at Law</div>
-        <p>Trial lawyer serving Houston and Texas. Civil rights, serious injury, and industrial accidents.</p>
-      </div>
-      <div class="footer-col">
-        <div class="head">Practice</div>
-        <nav aria-label="Footer practice links">
-          <a href="../practice-areas.html#civil-rights">Civil Rights</a>
-          <a href="../practice-areas.html#car-accidents">Car Accidents</a>
-          <a href="../practice-areas.html#truck-wrecks">Truck &amp; 18-Wheeler Wrecks</a>
-          <a href="../practice-areas.html#industrial-accidents">Industrial Accidents</a>
-          <a href="../practice-areas.html#personal-injury">Serious Personal Injury</a>
-        </nav>
-      </div>
-      <div class="footer-col">
-        <div class="head">Contact</div>
-        <div class="stack">
-          <a class="phone" href="tel:+17132392300">(713) 239-2300</a>
-          <a href="mailto:info@orodriguezlaw.com">info@orodriguezlaw.com</a>
-          <p>700 Louisiana St, Suite 3950<br>TC Energy Center, 39th Floor<br>Houston, TX 77002</p>
-        </div>
-      </div>
-    </div>
-    <div class="footer-legal">
-      <div class="row">
-        <div>
-          <p>&copy; 2026 O. Rodriguez Law, PLLC. All rights reserved.</p>
-          <p>Admitted: Texas State Bar &middot; U.S. District Court, Southern District of Texas &middot; U.S. District Court, Northern District of Texas</p>
-        </div>
-        <nav class="links" aria-label="Footer legal links">
-          <a href="#disclaimer">Disclaimer</a>
-        </nav>
-      </div>
-      <p class="disclaimer" id="disclaimer">Attorney Advertising. Prior results do not guarantee a similar outcome. The information on this website is for general informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by use of this site.</p>
-    </div>
-  </div>
+<div class="inner">
+<div class="red-rule"></div>
+<div class="footer-grid">
+<div class="footer-brand">
+<div class="name">Orlando Rodriguez</div>
+<div class="role">Attorney at Law</div>
+<p>Trial lawyer serving Houston and Texas. Civil rights, serious injury, and industrial accidents.</p>
+</div>
+<div class="footer-col">
+<div class="head">Practice</div>
+<nav aria-label="Footer practice links">
+<a href="../practice-areas.html#civil-rights">Civil Rights</a>
+<a href="../practice-areas.html#car-accidents">Car Accidents</a>
+<a href="../practice-areas.html#truck-wrecks">Truck &amp; 18-Wheeler Wrecks</a>
+<a href="../practice-areas.html#industrial-accidents">Industrial Accidents</a>
+<a href="../practice-areas.html#personal-injury">Serious Personal Injury</a>
+</nav>
+</div>
+<div class="footer-col">
+<div class="head">Contact</div>
+<div class="stack">
+<a class="phone" href="tel:+17132392300">(713) 239-2300</a>
+<a href="mailto:info@orodriguezlaw.com">info@orodriguezlaw.com</a>
+<p>700 Louisiana St, Suite 3950<br>TC Energy Center, 39th Floor<br>Houston, TX 77002</p>
+</div>
+</div>
+</div>
+<div class="footer-legal">
+<div class="row">
+<div>
+<p>&copy; 2026 O. Rodriguez Law, PLLC. All rights reserved.</p>
+<p>Admitted: Texas State Bar &middot; U.S. District Court, Southern District of Texas &middot; U.S. District Court, Northern District of Texas</p>
+</div>
+<nav class="links" aria-label="Footer legal links">
+<a href="#disclaimer">Disclaimer</a>
+</nav>
+</div>
+<p class="disclaimer" id="disclaimer">Attorney Advertising. Prior results do not guarantee a similar outcome. The information on this website is for general informational purposes only and does not constitute legal advice. No attorney-client relationship is formed by use of this site.</p>
+</div>
+</div>
 </footer>
 
 <script src="../script.js"></script>
+<script>
+(function(){
+  var tabs = document.querySelectorAll('.fc-tab');
+  var rows = document.querySelectorAll('.section .inner .entry-row');
+  function apply(cat){
+    rows.forEach(function(r){
+      var c = r.querySelector('.cat');
+      var t = c ? c.textContent.trim() : '';
+      if(cat === 'all' || t === cat){ r.classList.remove('fc-hidden'); }
+      else { r.classList.add('fc-hidden'); }
+    });
+  }
+  tabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      tabs.forEach(function(t){ t.classList.remove('active'); });
+      tab.classList.add('active');
+      apply(tab.getAttribute('data-cat'));
+    });
+  });
+})();
+</script>
 </body>
 </html>
