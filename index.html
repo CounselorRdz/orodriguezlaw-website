@@ -15,6 +15,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <style>
+  .dispatch{display:flex;align-items:center;gap:0.75rem 1.4rem;flex-wrap:wrap;max-width:var(--max);margin:1.4rem auto 0;padding:0.8rem 1.4rem;background:#140406;border:1px solid rgba(204,0,0,0.45);box-shadow:0 0 18px rgba(204,0,0,0.30),inset 0 0 22px rgba(204,0,0,0.06);text-decoration:none;transition:box-shadow .3s ease,border-color .3s ease;}
+  .dispatch:hover{border-color:rgba(204,0,0,0.9);box-shadow:0 0 28px rgba(204,0,0,0.6),inset 0 0 26px rgba(204,0,0,0.10);}
+  .dispatch-tag{display:inline-flex;align-items:center;gap:0.55rem;font-family:var(--text);font-weight:700;font-size:0.6rem;letter-spacing:0.28em;text-transform:uppercase;color:var(--red);white-space:nowrap;text-shadow:0 0 8px rgba(204,0,0,0.75);}
+  .dispatch-dot{width:9px;height:9px;border-radius:50%;background:var(--red);box-shadow:0 0 8px 2px rgba(204,0,0,0.9);animation:dispatchPulse 1.8s ease-in-out infinite;}
+  .dispatch-title{font-family:var(--display);font-size:0.95rem;color:var(--white);white-space:nowrap;text-shadow:0 0 10px rgba(204,0,0,0.35);}
+  .dispatch-teaser{font-family:var(--text);font-size:0.9rem;color:var(--gray);flex:1 1 220px;min-width:0;}
+  .dispatch-go{margin-left:auto;color:var(--red);font-size:1.1rem;text-shadow:0 0 8px rgba(204,0,0,0.75);}
+  @keyframes dispatchPulse{0%,100%{opacity:1;}50%{opacity:0.4;}}
+  @media (max-width:640px){.dispatch{gap:0.5rem 1rem;}.dispatch-teaser{flex-basis:100%;}.dispatch-go{margin-left:0;}}
+  @media (prefers-reduced-motion:reduce){.dispatch-dot{animation:none;}}
+  </style>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@graph":[
     {"@type":"WebSite","@id":"https://orodriguezlaw.com/#website","name":"Orlando Rodriguez Law","url":"https://orodriguezlaw.com/"},
@@ -51,6 +63,14 @@
 </header>
 
 <main>
+
+  <!-- Dispatch: recurring neon note from Orlando -->
+  <a class="dispatch" href="docket/the-reading.html" aria-label="A note from Orlando Rodriguez: The Reading">
+    <span class="dispatch-tag"><span class="dispatch-dot" aria-hidden="true"></span>From the Desk &middot; After Midnight</span>
+    <span class="dispatch-title">The Reading</span>
+    <span class="dispatch-teaser">Why I read every case that comes to me, all the way down.</span>
+    <span class="dispatch-go" aria-hidden="true">&rarr;</span>
+  </a>
 
   <!-- Hero -->
   <section class="hero">
