@@ -18,6 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <style>@media (max-width:720px){ .hero .hero-mark { display:block !important; width:min(70vw, 300px) !important; } }</style>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@graph":[
     {"@type":"WebSite","@id":"https://orodriguezlaw.com/#website","name":"Orlando Rodriguez Law","url":"https://orodriguezlaw.com/"},
@@ -39,7 +40,7 @@
       <a class="nav-link" href="docket/index.html">The Docket</a>
       <a class="nav-link" href="contact.html">Contact</a>
       <a class="nav-link" href="es/index.html" lang="es">Español</a>
-      <a class="btn btn--small" href="start/">Start Your Case</a>
+      <a class="btn btn--small" href="start/">Tell Me About Your Case</a>
     </nav>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
@@ -51,7 +52,7 @@
     <a href="docket/index.html">The Docket</a>
     <a href="contact.html">Contact</a>
     <a href="es/index.html" lang="es">Español</a>
-    <a class="cta" href="start/">Start Your Case</a>
+    <a class="cta" href="start/">Tell Me About Your Case</a>
   </nav>
 </header>
 
@@ -59,21 +60,16 @@
 
   <!-- Hero -->
   <section class="hero">
-    <div class="ghost" aria-hidden="true">LAW</div><img class="hero-mark" src="logo-white.png" alt="" aria-hidden="true">
+    <img class="hero-mark" src="logo-white.png" alt="" aria-hidden="true" style="top:50%; left:50%; transform:translate(-50%,-56%); width:clamp(220px, 34vw, 460px); opacity:0.14;">
     <div class="inner">
-      <h1 class="display">
-        <span class="hero-line rise">When no one else</span>
-        <span class="hero-line rise">will take</span>
-        <span class="hero-line rise">the fight,</span>
-        <span class="hero-line rise">I will<span class="reddot">.</span></span>
-      </h1>
+      <h1 class="sr-only" style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);">Orlando Rodriguez, Houston Trial Lawyer</h1>
       <div class="hero-meta reveal">
         <div class="dash"></div>
         <div>
           <div class="who">Orlando Rodriguez</div>
           <div class="where">Trial Lawyer &middot; Abogado de Juicios</div>
         </div>
-        <a class="btn" href="start/">Start Your Case</a>
+        <a class="btn" href="start/">Tell Me About Your Case</a>
       </div>
     </div>
   </section>
@@ -161,10 +157,10 @@
     <div class="inner">
       <div class="reveal">
         <span class="eyebrow">Potential New Clients</span>
-        <h2 class="display" style="font-size:clamp(1.9rem, 5vw, 4rem);">Start your case<span class="reddot">.</span></h2>
+        <h2 class="display" style="font-size:clamp(1.9rem, 5vw, 4rem);">Tell me about your case<span class="reddot">.</span></h2>
         <p style="color:var(--gray); max-width:680px; margin:1rem 0 2rem;">A few questions, one at a time, in English or Spanish, so I can evaluate whether this is a case I can take. Three minutes, and what you send is confidential.</p>
         <div style="display:flex; gap:2.5rem; flex-wrap:wrap; align-items:center;">
-          <a class="btn" href="start/">Start Your Case</a>
+          <a class="btn" href="start/">Tell Me About Your Case</a>
           <a class="link-underline" href="tel:+17132392300">Or call (713) 239-2300 &rarr;</a>
         </div>
       </div>
