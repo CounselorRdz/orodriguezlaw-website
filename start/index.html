@@ -290,6 +290,7 @@
 
   // ---- State ----
   var lang = (navigator.language || '').toLowerCase().indexOf('es') === 0 ? 'es' : 'en';
+  try { var qp = new URLSearchParams(window.location.search).get('lang'); if (qp === 'es' || qp === 'en') { lang = qp; } else if (window.location.hash === '#es') { lang = 'es'; } } catch (e) {}
   var state = { screen: 'notice', ack: null, lane: null, qi: 0, answers: {}, offrampSeen: {}, contact: { name: '', phone: '', email: '', extra: '' }, composed: '' };
 
   var $screen = document.getElementById('screen');
