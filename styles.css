@@ -1091,3 +1091,41 @@ textarea:focus-visible {
 /* Hero watermark: R and gavel mark, black on black */
 .hero .hero-mark { position: absolute; top: 4.5rem; left: var(--pad); width: clamp(160px, 22vw, 300px); height: auto; opacity: 0.06; pointer-events: none; user-select: none; }
 @media (max-width: 720px) { .hero .hero-mark { display: none; } }
+
+
+/* ---------- Mobile pass (Sept 10, 2026) ---------- */
+@media (max-width: 640px) {
+  .hero { min-height: 0; padding: 4.5rem var(--pad) 3.25rem; justify-content: flex-start; }
+  .hero-line { font-size: clamp(1.4rem, 7.2vw, 2.4rem); }
+  .hero--sub .hero-line { font-size: clamp(1.6rem, 8vw, 2.6rem); }
+  .hero-meta { margin-top: 2rem; }
+  .hero-meta .btn { display: block; width: 100%; text-align: center; padding: 1rem 1.2rem; font-size: 0.8rem; letter-spacing: 0.12em; }
+}
+
+/* Header phone: injected by script.js, shown only where the nav collapses */
+.hdr-phone { display: none; }
+@media (max-width: 767px) {
+  .hdr-phone { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 40px; margin-left: auto; margin-right: 0; color: var(--red); }
+  .hdr-phone svg { width: 22px; height: 22px; }
+  .brand .name { font-size: clamp(0.85rem, 4.2vw, 1.05rem); letter-spacing: 0.06em; white-space: nowrap; }
+  .brand .tag { font-size: 0.52rem; letter-spacing: 0.22em; }
+}
+
+/* Portrait, mono treatment: sits inside the black / white / red system */
+.portrait--mono img { filter: grayscale(1) contrast(1.18) brightness(0.98); }
+.portrait--home { max-width: 420px; }
+.portrait--home img { border-bottom: 6px solid var(--red); }
+
+/* Before You Call strip (homepage, above the practice doors) */
+.byc-strip { display: flex; flex-wrap: wrap; gap: 0.6rem 1.4rem; align-items: baseline; margin: 0 0 3rem; font-family: var(--text); font-size: 0.85rem; }
+.byc-strip .lbl { font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gray); }
+.byc-strip a { color: var(--white); text-decoration: none; border-bottom: 1px solid var(--line); padding-bottom: 2px; }
+.byc-strip a:hover { color: var(--red); border-bottom-color: var(--red); }
+
+/* Four-step path (homepage #start) */
+.path { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin: 2.75rem 0 0; padding-top: 2rem; border-top: 1px solid var(--line); }
+.path .step .num { font-family: var(--display); font-size: 0.8rem; letter-spacing: 0.2em; color: var(--red); }
+.path .step h4 { font-family: var(--display); font-size: 0.95rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--white); margin: 0.5rem 0 0.4rem; }
+.path .step p { font-family: var(--text); font-size: 0.9rem; line-height: 1.65; color: var(--gray); margin: 0; }
+@media (max-width: 860px) { .path { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .path { grid-template-columns: 1fr; } }
