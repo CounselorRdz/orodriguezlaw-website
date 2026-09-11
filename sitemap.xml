@@ -190,7 +190,7 @@
 <url><loc>https://orodriguezlaw.com/docket/dispatch-2026-09-08-south-texas.html</loc><lastmod>2026-09-08</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/parte-2026-09-08-sur-de-texas.html</loc><lastmod>2026-09-08</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/docket/one-word-terminated.html</loc><lastmod>2026-09-09</lastmod><priority>0.7</priority></url>
-<url><loc>https://orodriguezlaw.com/docket/over-the-top.html</loc><lastmod>2026-09-09</lastmod><priority>0.7</priority></url>
+<url><loc>https://orodriguezlaw.com/docket/over-the-top.html</loc><lastmod>2026-09-11</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/docket/one-word-redirect.html</loc><lastmod>2026-09-09</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/docket/dispatch-2026-09-09.html</loc><lastmod>2026-09-09</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/parte-2026-09-09.html</loc><lastmod>2026-09-09</lastmod><priority>0.7</priority></url>
@@ -377,6 +377,12 @@
   </url>
   <url>
     <loc>https://orodriguezlaw.com/es/maestras-campoamor-y-kent.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://orodriguezlaw.com/es/por-encima-del-muro.html</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
