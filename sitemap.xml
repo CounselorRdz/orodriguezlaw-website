@@ -248,7 +248,7 @@
 <url><loc>https://orodriguezlaw.com/es/maestra-sor-juana.html</loc><lastmod>2026-09-06</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/dicho-mas-vale-prevenir.html</loc><lastmod>2026-09-09</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/dicho-cuentas-claras.html</loc><lastmod>2026-09-09</lastmod><priority>0.7</priority></url>
-  <url><loc>https://orodriguezlaw.com/es/</loc><lastmod>2026-09-11</lastmod><priority>0.8</priority></url>
+  <url><loc>https://orodriguezlaw.com/es/</loc><lastmod>2026-09-21</lastmod><priority>0.8</priority></url>
 <url><loc>https://orodriguezlaw.com/es/practica/</loc><lastmod>2026-09-06</lastmod><priority>0.8</priority></url>
 <url><loc>https://orodriguezlaw.com/practice/car-accidents/before-you-call.html</loc><lastmod>2026-09-14</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/practica/accidentes-de-auto/antes-de-llamar.html</loc><lastmod>2026-09-14</lastmod><priority>0.7</priority></url>
@@ -381,7 +381,7 @@
   </url>
   <url>
     <loc>https://orodriguezlaw.com/es/dichos/</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -421,4 +421,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+<url><loc>https://orodriguezlaw.com/es/dicho-perro-que-ladra-no-muerde.html</loc><lastmod>2026-09-21</lastmod><priority>0.7</priority></url>
+<url><loc>https://orodriguezlaw.com/es/dicho-lo-barato-sale-caro.html</loc><lastmod>2026-09-21</lastmod><priority>0.7</priority></url>
+<url><loc>https://orodriguezlaw.com/es/dicho-a-palabras-necias.html</loc><lastmod>2026-09-21</lastmod><priority>0.7</priority></url>
+<url><loc>https://orodriguezlaw.com/es/dicho-el-que-calla-otorga.html</loc><lastmod>2026-09-21</lastmod><priority>0.7</priority></url>
 </urlset>
