@@ -45,18 +45,55 @@ if (form) {
       var el = document.getElementById(id);
       return el ? el.value.trim() : "";
     };
-    var subject = "New case inquiry — " + (get("f-type") || "General");
+    var subject = "New case inquiry: " + (get("f-type") || "General");
     var body =
       "Name: " + get("f-name") + "\n" +
       "Email: " + get("f-email") + "\n" +
       "Phone: " + get("f-phone") + "\n" +
       "Case type: " + get("f-type") + "\n\n" +
       "What happened:\n" + get("f-message");
-    window.location.href =
+    var mailto =
       "mailto:info@orodriguezlaw.com" +
       "?subject=" + encodeURIComponent(subject) +
       "&body=" + encodeURIComponent(body);
+    // A static site cannot send mail itself. If the visitor has no mail app
+    // (or the message is too long for a mailto link), nothing happens, so the
+    // composed message is shown with a copy button and the address.
+    var box = document.getElementById("sent-box");
+    if (box) {
+      var txt = document.getElementById("sent-text");
+      if (txt) txt.textContent = body;
+      var again = document.getElementById("mail-again");
+      if (again) again.href = mailto;
+      box.hidden = false;
+      if (box.scrollIntoView) box.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+    window.location.href = mailto;
   });
+  var copyBtn = document.getElementById("copy-btn");
+  if (copyBtn) {
+    copyBtn.addEventListener("click", function () {
+      var txt = document.getElementById("sent-text");
+      var text = txt ? txt.textContent : "";
+      var done = function () { copyBtn.textContent = "Copied"; };
+      var fallback = function () {
+        var ta = document.createElement("textarea");
+        ta.value = text;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "fixed";
+        ta.style.left = "-9999px";
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand("copy"); done(); } catch (err) { copyBtn.textContent = "Select the text and copy it"; }
+        document.body.removeChild(ta);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, fallback);
+      } else {
+        fallback();
+      }
+    });
+  }
 }
 
 
