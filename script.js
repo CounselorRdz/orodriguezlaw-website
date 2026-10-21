@@ -53,7 +53,7 @@ if (form) {
       "Case type: " + get("f-type") + "\n\n" +
       "What happened:\n" + get("f-message");
     var mailto =
-      "mailto:info@orodriguezlaw.com" +
+      "mailto:rdztexaslaw@gmail.com" +
       "?subject=" + encodeURIComponent(subject) +
       "&body=" + encodeURIComponent(body);
     // A static site cannot send mail itself. If the visitor has no mail app
