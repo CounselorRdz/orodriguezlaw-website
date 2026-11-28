@@ -10,7 +10,7 @@
 <url><loc>https://orodriguezlaw.com/docket/the-masters/</loc><lastmod>2026-11-24</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/docket/the-body/</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/docket/redline/</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
-<url><loc>https://orodriguezlaw.com/docket/the-fifth-circuit/</loc><lastmod>2026-11-25</lastmod><priority>0.7</priority></url>
+<url><loc>https://orodriguezlaw.com/docket/the-fifth-circuit/</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/docket/dispatch/</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/parte/</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/search/</loc><lastmod>2026-09-22</lastmod><priority>0.5</priority></url>
@@ -108,7 +108,7 @@
 <url><loc>https://orodriguezlaw.com/practice/south-texas/val-verde-county/</loc><lastmod>2026-09-25</lastmod><priority>0.9</priority></url>
 <url><loc>https://orodriguezlaw.com/es/practica/sur-de-texas/condado-de-val-verde/</loc><lastmod>2026-09-25</lastmod><priority>0.9</priority></url>
 <url><loc>https://orodriguezlaw.com/es/practica/sur-de-texas/</loc><lastmod>2026-10-27</lastmod><priority>0.8</priority></url>
-<url><loc>https://orodriguezlaw.com/practice/civil-rights/</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
+<url><loc>https://orodriguezlaw.com/practice/civil-rights/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
 <url><loc>https://orodriguezlaw.com/practice/industrial-accidents/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
 <url><loc>https://orodriguezlaw.com/practice/personal-injury/</loc><lastmod>2026-11-22</lastmod><priority>0.8</priority></url>
 <url><loc>https://orodriguezlaw.com/practice/wrongful-death/</loc><lastmod>2026-11-27</lastmod><priority>0.9</priority></url>
@@ -322,7 +322,7 @@
 <url><loc>https://orodriguezlaw.com/es/practica/accidentes-de-camion/choques-por-debajo-del-remolque.html</loc><lastmod>2026-11-06</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/practica/accidentes-de-camion/caja-negra-y-datos-electronicos.html</loc><lastmod>2026-11-12</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/practica/accidentes-de-camion/responsabilidad-de-la-empresa.html</loc><lastmod>2026-11-21</lastmod><priority>0.7</priority></url>
-<url><loc>https://orodriguezlaw.com/es/practica/derechos-civiles/</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
+<url><loc>https://orodriguezlaw.com/es/practica/derechos-civiles/</loc><lastmod>2026-11-27</lastmod><priority>0.8</priority></url>
 <url><loc>https://orodriguezlaw.com/es/practica/derechos-civiles/fuerza-excesiva.html</loc><lastmod>2026-09-22</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/practica/derechos-civiles/arresto-injusto.html</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/practica/derechos-civiles/muerte-en-la-carcel.html</loc><lastmod>2026-09-24</lastmod><priority>0.7</priority></url>
@@ -839,4 +839,8 @@
 <url><loc>https://orodriguezlaw.com/docket/one-word-reportable.html</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/es/el-historial-de-choques.html</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
 <url><loc>https://orodriguezlaw.com/docket/redline-the-page-with-no-date.html</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
+<url><loc>https://orodriguezlaw.com/docket/one-word-custodial-death.html</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
+<url><loc>https://orodriguezlaw.com/es/muerte-bajo-custodia.html</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
+<url><loc>https://orodriguezlaw.com/docket/searles-v-city-of-houston.html</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
+<url><loc>https://orodriguezlaw.com/docket/berg-v-rivas.html</loc><lastmod>2026-11-27</lastmod><priority>0.7</priority></url>
 </urlset>
